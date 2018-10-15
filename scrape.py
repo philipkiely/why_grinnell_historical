@@ -36,12 +36,12 @@ def get_page(url):
     file.close()
 
 if __name__ == "__main__":
-    """links = get_links("https://digital.grinnell.edu/islandora/object/grinnell%3Aalumni-oral-histories")
+    links = get_links("https://digital.grinnell.edu/islandora/object/grinnell%3Aalumni-oral-histories")
     for link in links:
         try:
             get_page(link)
         except:
-            print(link)"""
+            print(link)
     for i in range(1, 8):
         url = "https://digital.grinnell.edu/islandora/object/grinnell%3Aalumni-oral-histories?page=" + str(i)
         try:
