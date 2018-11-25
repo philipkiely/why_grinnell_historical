@@ -32,7 +32,8 @@ def get_page(url):
     file_name = "output/" + url.split("/")[-1] + ".txt"
     file = open(file_name, "w")
     for entry in transcript:
-        file.write(entry.find('span', {'class': "speaker-display active"}).text + ":: " + entry.find('span', {'class': "oh_speaker_text"}).text + "\n")
+        for line in entry.find_all('span', {'class': "oh_speaker_text"}):
+            file.write(entry.find('span', {'class': "speaker-display active"}).text + ":: " + line.text + "\n")
     file.close()
 
 if __name__ == "__main__":
