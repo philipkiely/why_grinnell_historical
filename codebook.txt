@@ -1,0 +1,15 @@
+Distance Categories:
+1: 0-200 miles
+2: 200-800 miles
+3: 800+ miles
+
+Reason Categories:
+Financial Aid
+Alumni/Student Connection
+Academic Reputation
+Athletics
+Campus Visit
+Grinnell Admissions
+High School Reccomendation
+Location
+Student Life
