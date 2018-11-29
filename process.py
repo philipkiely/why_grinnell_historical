@@ -56,5 +56,19 @@ if __name__=="__main__":
         alumni.append(A)
         dex += 1
     complete = 0
+    c_alumni = []
     for alum in alumni:
-        alum.printfields()
+        #alum.printfields()
+        if alum.complete:
+            complete += 1
+            c_alumni.append(alum)
+    print(complete)
+    d1 = d2 = d3 = 0
+    for alum in c_alumni:
+        if alum.distance_category == 1:
+            d1 += 1
+        elif alum.distance_category == 2:
+            d2 += 1
+        else:
+            d3 += 1
+    print(d1, d2, d3)
