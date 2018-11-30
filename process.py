@@ -29,7 +29,9 @@ class Alum:
             self.complete = False
 
     def printfields(self):
-        print(self.id, self.name, self.class_year, self.origin, self.distance, self.distance_category, self.reasons, self.reason1, self.reason2, self.complete)
+        print(self.id, self.name, self.class_year, self.origin, self.distance,
+        self.distance_category, self.reasons, self.reason1, self.reason2,
+        self.complete)
 
 def pprint(counts, size):
     r = dict(zip(reasons.values(),reasons.keys()))

@@ -1,7 +1,7 @@
-﻿ID,Name,Class,Origin,Distance,Distance Category,Reasons,Category 1,Category 2
+ID,Name,Class,Origin,Distance,Distance Category,Reasons,Category 1,Category 2
 12205,Lynne Simcox,1964,Chicago,300,2,Visit to Grinnell during Junior year of High School for Seminary program,Campus Visit,Financial Aid
 17924,Caryn Chaden,1976,,,,,,
-18499,Camarin Madigan,2000,California,1860,3,have a great education ,Academics,Athletics
+18499,Camarin Madigan,2000,California,1860,3,have a great education ,Academic Reputation,Athletics
 18500,Joe Walka,1960,St. Louis,323,2,Financial Aid,Financial Aid,Financial Aid
 18501,Christopher Doemel,1994,Crawfodsville Indiana,381,2,Overnight visit with student interactions,Campus Visit,Alumni/Student Connection
 18502,Scott Barkley,2000,,,,best education possible,Academic Reputation,Athletics
@@ -11,19 +11,19 @@
 18521,Sarah Davis Worth,2000,,,,,,
 18522,Nancy Ganschaw Frankes,1976,Chicago,300,2,Be at least 300 miles from home,Location,Campus Visit
 18526,Forest C Rinefort Jr,1954,Chicago,300,2,,,
-18527,Courtney Sherwood,2000,D.C. Area,969,3,Fit weather criteria (wanted snow),Weather,Grinnell Admissions
+18527,Courtney Sherwood,2000,D.C. Area,969,3,Fit weather criteria (wanted snow),Location,Grinnell Admissions
 18806,Timothy Stiles,1998,Small Town Missouri,303,2,Reccomendation from older brother's professors at William Jewell College,Alumni/Student Connection,
 18807,Susan Sink,1986,Park Forest Illinois,287,2,High school friend one year ahead reccomended grinnell,Alumni/Student Connection,
 18808,Wally Douma,1951,Small town near grinnell,20,1,Brother enrolled at Grinnell as a veteran,Alumni/Student Connection,
 18809,Margaret Ann Bogie,1976,,,,Met alum in England while studying medieval history in high school,Alumni/Student Connection,
 18811,Alesia Niblack Gonzalez,1994,Kansas,457,2,positive impression during new student visit,Campus Visit,
 18812,Rod Sinks,1981,Minneapolis,278,2,distance from home,Location,High School Recommendation
-18867,Mary Parker,2006,"Fayetteville, Arkansas",476,2,prospie experience,Campus Visit,
-18874,Michael Warren Lewis,1981,D.C. Area,969,3,Small classes,Small Liberal Arts School,Location
+18867,Mary Parker,2006,Fayetteville Arkansas,476,2,prospie experience,Campus Visit,
+18874,Michael Warren Lewis,1981,D.C. Area,969,3,Small classes,Student Life,Location
 18879,Margo Gray,2005,,,,Positive visit after acceptance,Campus Visit,
 18906,Norma Tong Dang,1953,Hilo Hawaii,4000,3,beautiful campus,Campus Visit,
 18934,Leighton Bowers,2004,,,,High school teacher reccomended it,High School Recommendation,Campus Visit
-18940,Kristin Durianski,2001,"Parkridge, Illinois",283,2,financial aid,Financial Aid,
+18940,Kristin Durianski,2001,Parkridge Illinois,283,2,financial aid,Financial Aid,
 18943,Jean McKenzie,1986,,,,Sister came here,Alumni/Student Connection,
 18944,Maria Elizabeth Walinski-Peterson,1992,,,,"campus visit ""homing beacon""",Campus Visit,
 18945,Mike Cleary,1986,Pennsylvania,1029,3,distance from home,Location,Financial Aid
@@ -33,17 +33,17 @@
 18949,Rebecca Mauldin,2005,chicago,300,2,Campus visit,Campus Visit,
 19350,James Ahrens,1962,Grinnell,1,1,from the area,Grinnell Admissions,
 19351,Mariana Alwell,1968,California,1860,3,financial aid,Financial Aid,
-19352,Babak Armajani,1968,,,,no info for us but fascinating history of the KDIC radio station,,
+19352,Babak Armajani,1968,,,,,,
 19352,Carolyn Ashbaugh,1973,Iowa,65,1,Financial Aid,Financial Aid,Academic Reputation
 19354,Liz Banfield,1992,,,,,,
 19355,Paul Bendich,2001,,,,Accepted with non-traditional high school transcript,Grinnell Admissions,
-19357,Phil Bertenthal,1968,New York City,1060,3,"Magazine article in Life, 1960",,
+19357,Phil Bertenthal,1968,New York City,1060,3,Magazine article in Life 1960,Academic Reputation,
 19358,Janice Binder,1986,,,,Met alum at a boarding school,Alumni/Student Connection,
 19359,Amy Bliss Tenney,1992,,,,Social Justice,Student Life,Campus Visit
 19394,Carin Bringelson,1991,,,,Campus Visit,Campus Visit,Student Life
-19395,Joshua Burke,1992,,,,no info for us but more on KDIC,,
+19395,Joshua Burke,1992,,,,,,
 19396,Benjamin Cantor-Stone,2007,Houston,988,3,Campus Visit,Campus Visit,
-19397,James Lowell Carns,1972,"Longview, Washington",1882,3,Far from home,Location,Alumni/Student Connection
+19397,James Lowell Carns,1972,Longview Washington,1882,3,Far from home,Location,Alumni/Student Connection
 19698,Janet Murphy,1971,,,,,,
 19399,Kathy Byrd,1969,Colorado,788,2,Far from home,Location,
 19400,Mary Margaret Brown Coffield,1973,Champaign-Urbana,306,2,Campus visit,Campus Visit,Grinnell Admissions
@@ -63,7 +63,7 @@
 19417,Rochelle Marie Gandour-Rood,2002,Oklahoma City,596,2,Mother wanted to come,Alumni/Student Connection,
 19419,Ten Amann,1987,,,,,,
 19420,Ronald Gault,1962,Chicago,300,2,high school councilor reccomendation,High School Recommendation,
-19421,Diane Gutenkauf,1980,Iowa City,67,1,financial stability of institution,,
+19421,Diane Gutenkauf,1980,Iowa City,67,1,financial stability of institution,Financial Aid,
 19422,Ray Horton,1962,,,,Family Alumni,Alumni/Student Connection,
 19423,Audrey Howard Swanson,1943,Mankato Minnesota,241,2,Councellor reccomendation,High School Recommendation,
 19424,Jim Asplund,1988,,,,,,
@@ -85,7 +85,7 @@
 19441,Mara Brewster Munroe,1972,Iowa,65,1,,,
 19442,Tanya Newkirk,1991,Southern California,1736,3,Admisssions flyers,Grinnell Admissions,
 19443,Bruce Nissen,1970,,,,Wanted an activist college.,Student Life,
-19443,David Lindblom,1970,,,,Nothing in particular.,,
+19443,David Lindblom,1970,,,,,,
 19444,Nicholas G. Nonas,1966,Mason City Iowa,123,1,Financial Aid,Financial Aid,
 19445,Sarah Nuss-Warren,2002,,,,,,
 19446,Jan Palmer,1973,,,,,,
@@ -97,7 +97,7 @@
 19452,Ian Roberts,1987,,,,,,
 19453,William Schooler,1971,,,,Athletics.,Athletics,
 19454,Mark Schorr,1966,Chicago,300,2,Admissions counsellor.,High School Recommendation,Location
-19455,Mark W. Schumann,1988,Connecticut,1136,3,Wanted to get away from home.,Location,Academic Repuation
+19455,Mark W. Schumann,1988,Connecticut,1136,3,Wanted to get away from home.,Location,Academic Reputation
 19456,Carly Schuna,2006,,,,Campus visit.,Campus Visit,Student Life
 19457,Ed Senn,1979,Virginia,984,3,Great school. Contact with students and faculty.,Alumni/Student Connection,Financial Aid
 19458,Edward E. Shackelford,1943,New York City,1060,3,Picked Grinnell out of a catalogue.,Academic Reputation,Location
@@ -107,23 +107,23 @@
 19462,Judith Roberts Stoddard,1966,,,,,,
 19463,Amy Stubenhaus,1979,,,,Wanted to go to a school in the midwest. In Iowa.,Location,
 19464,Greg Thielmann,1972,Newton Iowa,20,1,Cultural awakening.,Student Life,
-19465,Brenda Thomas,1969,New York,1060,3,Seemed like the most inviting place,,
+19465,Brenda Thomas,1969,New York,1060,3,Seemed like the most inviting place,Campus Visit,
 19466,Mel Thompson,1968,,,,Doesn't talk about why he came but talks about his wife from Indonesia who came because of financial aid.,Financial Aid,
 19467,Gregory L. Vranicar,1972,Nebraska,410,2,,,
 19468,Andrew Altschul,1992,Brooklyn NYC,1060,3,Transfer student.,Grinnell Admissions,
 19468,Jacqueline Lee Weissman,1992,Long Island NY,1060,3,,,
 19469,Clay Williams,1973,Idaho,1397,3,Financial Aid.,Financial Aid,
 19470,Robert S. Wilson,1970,,,,Family alumni.,Alumni/Student Connection,
-19471,April Zoll Close Cottrell,1992,Oregon,1841,3,Academic standards.,Academic Standards,Grinnell Admissions
+19471,April Zoll Close Cottrell,1992,Oregon,1841,3,Academic Reputation.,Academic Reputation,Grinnell Admissions
 19474,Margery Hendrick Piersen,1963,Chicago,300,2,Family friend went. ,Alumni/Student Connection,Campus Visit
 19488,Nicolas Schapira,2001,New York City,1060,3,Wanted a small school.,Location,Campus Visit
 19489,Tyler Bradbury,2001,California,1860,3,Campus visit.,Campus Visit,
 19489,Allison Foley,2001,New Jersey,1080,3,Persistant admisssions mailings,Grinnell Admissions,
 19509,Keith Kester,1961,St. Louis,323,2,Financial Aid.,Financial Aid,
-19514,Avram Machtiger,1974,England (American but a parent was stationed oversees),4000,3,"Wanted small, private, liberal arts college.",Student Life,Academic Reputation
+19514,Avram Machtiger,1974,England (American but a parent was stationed oversees),4000,3,Wanted small private liberal arts college.,Student Life,Academic Reputation
 19515,Cathrine Hampton Ditmore,1954,Belmont Massachusetts,1247,3,Pilgrim Fellowship in the Congregational Church in Des Moines. Visited a couple times through the annual conference.,Campus Visit,
 19516,Laura Allender Ferguson,1989,Chicago,300,2,College flyer stood out.,Grinnell Admissions,Financial Aid
-19517,Margaret Patricia Stahl Hubbell,1964,Wrentham Massachusetts,1246,3,Academically challenging.,Academic Standards,
+19517,Margaret Patricia Stahl Hubbell,1964,Wrentham Massachusetts,1246,3,Academically challenging.,Academic Reputation,
 19518,Nicholas Buess,2004,,,,,,
 19519,William Wilcoxen,1984,Chicago (Southside),300,2,Grinnell alumni in the counseling office,Alumni/Student Connection,
 19520,Carol Baker,1983,Berkeley California,1839,3,No Greek Life.,Student Life,Student Life
@@ -141,14 +141,14 @@
 21205,Alison Williams,2003,Minnesota,278,2,Just over four hours from home. Welcoming campus community.,Location,
 21206,Andreas Vassilos,1977,Chicago (Southside),300,2,Sense of safety and trust,Student Life,
 21207,Anne Brineman Anderson,1964,,,,,,
-21211,Carol Tuttle Moseson,1977,,,,"Knew she belonged there. Was not a happy, social person.",Student Life,
+21211,Carol Tuttle Moseson,1977,,,,Knew she belonged there. Was not a happy social person.,Student Life,
 21212,Robert Schwaller,2003,Montana,1156,3,Athletics (Football),Athletics,
 21216,Ann Lion,1978,,,,Sense of safety and intellectual place.,Student Life,
 21216,Ellen Liebman,1979,,,,Brother went to Grinnell - sense of safety.,Alumni/Student Connection,
 21217,Tiffany Edwards,2003,New York City. Queens. New York.,1060,3,Get away from Mom. Visited as part of the Grinnell Summer Science Institute Program.,Location,
-21218,Gregory Kaiser Youtz,1979,Washington D.C.,969,3,"Wanted the opposite of his high school. High school was ""all-boys school, very conservative, very preppy, and… very political""",Location,
+21218,Gregory Kaiser Youtz,1979,Washington D.C.,969,3,"Wanted the opposite of his high school. High school was ""all-boys school very conservative very preppy and… very political""",Student Life,
 21219,Howard Ohline,1958,,,,Parents wanted him to come and older brother went to Grinnell. Started somewhere else and then transferred to Grinnell.,Alumni/Student Connection,
 21220,Jerry Eggleston,1962,,,,High school English teacher thought he should go there.,High School Recommendation,
 21221,Sasha Aslanian,1990,,,,"Visited on a prospective student day. Heard about the Soviet Interim Program and other study abroad experiences. Saw how ""wordly"" Grinnell is.",Campus Visit,
 21222,James G. Fisher,1963,,,,Came because brother went to Grinnell.,Alumni/Student Connection,
-21224,James H. Stacey,1957,From Chicago. High School in Colo Iowa,300,2,Brother went to Grinnell and basketball coach convinced him to come.,Alumni/Student Connection,
+21224,James H. Stacey,1957,From Chicago. High School in Colo Iowa,300,2,Brother went to Grinnell and basketball coach convinced him to come.,Alumni/Student Connection,Athletics
