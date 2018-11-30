@@ -33,6 +33,14 @@ class Alum:
         print(self.id, self.name, self.class_year, self.origin, self.distance, self.distance_category, self.reasons, self.reason1, self.reason2, self.complete)
 
 
+def count(lst, feature, val):
+    count = 0
+    for a in lst:
+        if a.feature == val:
+            count += 1
+    return count
+
+
 
 if __name__=="__main__":
     reasons = {"Financial Aid": 1,
