@@ -2,7 +2,6 @@
 class Alum:
 
     def __init__(self, data):
-        print(data)
         self.id = int(data[0])
         self.name = data[1]
         self.class_year = int(data[2])
@@ -31,6 +30,16 @@ class Alum:
 
     def printfields(self):
         print(self.id, self.name, self.class_year, self.origin, self.distance, self.distance_category, self.reasons, self.reason1, self.reason2, self.complete)
+
+def pprint(counts, size):
+    r = dict(zip(reasons.values(),reasons.keys()))
+    lst = []
+    for key in counts:
+        lst.append((r[key], counts[key]/size))
+    lst.sort(key=lambda x: x[1], reverse=True)
+    for i in lst:
+        print(i)
+
 
 if __name__=="__main__":
     reasons = {"Financial Aid": 1,
@@ -61,12 +70,61 @@ if __name__=="__main__":
             complete += 1
             c_alumni.append(alum)
     print(complete)
-    d1 = d2 = d3 = 0
+    d_alumni = [[],[],[]]
+    year1 = year2 = year3 = 0
     for alum in c_alumni:
         if alum.distance_category == 1:
-            d1 += 1
+            d_alumni[0].append(alum)
+            year1 += alum.class_year
         elif alum.distance_category == 2:
-            d2 += 1
+            d_alumni[1].append(alum)
+            year2 += alum.class_year
         else:
-            d3 += 1
-    print(d1, d2, d3)
+            d_alumni[2].append(alum)
+            year3 += alum.class_year
+    for lst in d_alumni:
+        counts = {}
+        for alum in lst:
+            try:
+                counts[alum.reason1] = counts[alum.reason1] + 1
+            except: #new entry
+                counts[alum.reason1] = 1
+            try:
+                counts[alum.reason2] = counts[alum.reason2] + 1
+            except:
+                if alum.reason2 is not None:
+                    counts[alum.reason2] = 1
+        print("new set: ", len(lst))
+        pprint(counts, len(lst))
+    print("d1 year: ", int(year1/len(d_alumni[0])))
+    print("d2 year: ", int(year2/len(d_alumni[1])))
+    print("d3 year: ", int(year3/len(d_alumni[2])))
+    years = []
+    for alum in c_alumni:
+        years.append(alum.class_year)
+    print((min(years),  max(years)))
+    decades = {}
+    for i in range(4, 11):
+        dec = 1900 + i*10
+        ndec = 1910 + i*10
+        lst = []
+        for alum in c_alumni:
+            if alum.class_year >= dec and alum.class_year < ndec:
+                lst.append(alum)
+        decades[dec] = lst
+        print(dec, len(lst))
+    for dec in decades:
+        counts = {}
+        lst = decades[dec]
+        for alum in lst:
+            try:
+                counts[alum.reason1] = counts[alum.reason1] + 1
+            except: #new entry
+                counts[alum.reason1] = 1
+            try:
+                counts[alum.reason2] = counts[alum.reason2] + 1
+            except:
+                if alum.reason2 is not None:
+                    counts[alum.reason2] = 1
+        print("new set: ", dec, "({})".format(len(lst)))
+        pprint(counts, len(lst))
