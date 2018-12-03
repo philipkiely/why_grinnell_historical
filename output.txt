@@ -1,0 +1,94 @@
+86 complete observations
+
+Distance Category 1 (1-200 miles):  13 records
+(Financial Aid, 0.3076923076923077)
+(Alumni/Student Connection, 0.23076923076923078)
+(Campus Visit, 0.23076923076923078)
+(Academic Reputation, 0.15384615384615385)
+(Student Life, 0.15384615384615385)
+(Grinnell Admissions, 0.07692307692307693)
+(Location, 0.07692307692307693)
+
+Distance Category 2 (200-800 miles): 33 records
+(Campus Visit, 0.30303030303030304)
+(Alumni/Student Connection, 0.2727272727272727)
+(Location, 0.21212121212121213)
+(Financial Aid, 0.18181818181818182)
+(High School Recommendation, 0.15151515151515152)
+(Grinnell Admissions, 0.12121212121212122)
+(Academic Reputation, 0.06060606060606061)
+(Student Life, 0.06060606060606061)
+(Athletics, 0.030303030303030304)
+
+Distance Category 3 (800+ miles):  40
+(Location, 0.35)
+(Campus Visit, 0.225)
+(Academic Reputation, 0.2)
+(Grinnell Admissions, 0.175)
+(Student Life, 0.125)
+(Financial Aid, 0.125)
+(Alumni/Student Connection, 0.1)
+(Athletics, 0.05)
+(High School Recommendation, 0.025)
+
+Distance Category 1: average class year 1964, median class year 1966
+Distance Category 2: average class year 1977, median class year 1977
+Distance Category 3: average class year 1982, median class year 1985
+Data Set Range (1943, 2007)
+
+Decade: 1940 (2)
+(High School Recommendation, 0.5)
+(Academic Reputation, 0.5)
+(Location, 0.5)
+
+Decade: 1950 (9)
+(Alumni/Student Connection, 0.4444444444444444)
+(Campus Visit, 0.4444444444444444)
+(Academic Reputation, 0.1111111111111111)
+(Location, 0.1111111111111111)
+(Student Life, 0.1111111111111111)
+(Athletics, 0.1111111111111111)
+
+Decade: 1960 (20)
+(Financial Aid, 0.35)
+(Campus Visit, 0.25)
+(Academic Reputation, 0.15)
+(Alumni/Student Connection, 0.15)
+(High School Recommendation, 0.15)
+(Grinnell Admissions, 0.1)
+(Location, 0.1)
+
+Decade: 1970 (15)
+(Location, 0.4)
+(Student Life, 0.3333333333333333)
+(Financial Aid, 0.2)
+(Academic Reputation, 0.2)
+(Campus Visit, 0.13333333333333333)
+(Alumni/Student Connection, 0.13333333333333333)
+(Grinnell Admissions, 0.06666666666666667)
+(High School Recommendation, 0.06666666666666667)
+
+Decade: 1980 (16)
+(Location, 0.4375)
+(Financial Aid, 0.25)
+(Student Life, 0.1875)
+(Grinnell Admissions, 0.1875)
+(Alumni/Student Connection, 0.125)
+(Campus Visit, 0.125)
+(Academic Reputation, 0.125)
+(High School Recommendation, 0.0625)
+
+Decade: 1990 (8)
+(Grinnell Admissions, 0.5)
+(Alumni/Student Connection, 0.375)
+(Campus Visit, 0.25)
+(Academic Reputation, 0.125)
+
+Decade: 2000 (16)
+(Campus Visit, 0.4375)
+(Location, 0.3125)
+(Athletics, 0.125)
+(Grinnell Admissions, 0.125)
+(Alumni/Student Connection, 0.125)
+(Academic Reputation, 0.0625)
+(Financial Aid, 0.0625)
