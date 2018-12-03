@@ -85,7 +85,7 @@
             </footer>
           </blockquote>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+          <p>Lorem<span class='footnote' data-toggle="tooltip" title="Please note this historical tidbit from this <a href='https://wikipedia.com/'>well-respected source</a>."></span> ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
 
@@ -675,11 +675,11 @@
             </div>
           </div>
 
-          <!-- Side Widget -->
+          <!-- Source Widget -->
           <div class="card my-4">
-            <h5 class="card-header">Side Widget</h5>
+            <h5 class="card-header">Unanswered Questions?</h5>
             <div class="card-body">
-              You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+              The entire dataset and codebase for this project are availible <a href=https://github.com/philipkiely/why_grinnell_historical>on GitHub</a>. All code is MIT liscenced, all source file subject to their Digital Grinnell Liscences (Add Link, learn to spell).
             </div>
           </div>
 
@@ -702,6 +702,37 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<style>
+body {
+    counter-reset: footnotecounter;
+}
+
+span.footnote:before {
+  counter-increment: footnotecounter;
+  content: counter(footnotecounter);
+  position: relative;
+  top: -0.4em;
+}
+
+span.footnote {
+    color: #24B1E6;
+}
+</style>
+
+<!--make footnotes work-->
+<script>
+    jQuery(document).ready(function() {
+    jQuery('[data-toggle="tooltip"]').each(function() {
+        var $elem = jQuery(this);
+        $elem.tooltip({
+            html:true,
+            container: $elem,
+            delay: {hide:400}
+        });
+    });
+});
+</script>
 
   </body>
 
