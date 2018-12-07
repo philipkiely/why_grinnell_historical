@@ -1,6 +1,6 @@
 import urllib3
 from bs4 import BeautifulSoup
-import sys
+
 
 def get_links(url):
     ret = []
@@ -17,7 +17,7 @@ def get_links(url):
         ret.append(link.find('a')['href'])
     return ret
 
-#get all valid links from a marvel wikia page
+
 def get_page(url):
     """A function that, given a url from an alumni oral history, gets the transcript"""
     http = urllib3.PoolManager()
@@ -35,6 +35,7 @@ def get_page(url):
         for line in entry.find_all('span', {'class': "oh_speaker_text"}):
             file.write(entry.find('span', {'class': "speaker-display active"}).text + ":: " + line.text + "\n")
     file.close()
+
 
 if __name__ == "__main__":
     links = get_links("https://digital.grinnell.edu/islandora/object/grinnell%3Aalumni-oral-histories")
